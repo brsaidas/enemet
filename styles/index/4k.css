@@ -1,0 +1,110 @@
+/* 4K */
+@media only screen and (min-width: 1441px) and (max-width: 2560px) {
+  body {
+    margin: 0;
+    font-size: 3rem;
+  }
+  
+  .carousel-img-1 {
+    height: 100vh;
+    object-fit: cover;
+    content: url('../../assets/images/portrait/img2.jpeg');
+  }
+
+  .carousel-img-2 {
+    height: 100vh;
+    object-fit: cover;
+    content: url('../../assets/images/portrait/img3.jpeg');
+  }
+
+  .arcelor-mittal-gray {
+    background-color: #ececec;
+  }
+  
+  .bg-black {
+    background-color: #000000;
+  }
+  
+  .c-black {
+    color: #000000;
+  }
+  
+  .container-1 {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subtitle {
+    margin: 3rem;
+    /* font-size: 1rem; */
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+  }
+
+  .container-2 {
+    display: flex;
+    background-color: #ececec;
+  }
+  
+  .img-1 {
+    width: 50%;
+  }
+
+  .text-1 {
+    align-self: center;
+    text-align: justify;
+    margin: 1rem;
+    font-family: "Cormorant Garamond", serif;
+    /* font-size: 1rem; */
+  }
+  
+  .text-1 span {
+    font-weight: bold;
+  }
+  
+  .container-3 {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-4 {
+    display: grid;
+    height: fit-content;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .container-4 div {
+    overflow: hidden;
+  }
+  
+  .img-grid {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    transition: all 2s;
+  }
+  
+  .img-grid:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+  
+  .footer {
+    background-color: #000000;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-text {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Cormorant Garamond", serif;
+    /* font-size: 1rem; */
+  }
+}

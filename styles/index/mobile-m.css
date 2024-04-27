@@ -1,0 +1,107 @@
+/* Mobile M */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  body {
+    margin: 0;
+  }
+  
+  .carousel-img-1 {
+    height: 100vh;
+    content: url('../../assets/images/landscape/img3.jpeg');
+  }
+
+  .carousel-img-2 {
+    height: 100vh;
+    content: url('../../assets/images/landscape/img4.jpeg');
+  }
+
+  .arcelor-mittal-gray {
+    background-color: #ececec;
+  }
+  
+  .bg-black {
+    background-color: #000000;
+  }
+  
+  .c-black {
+    color: #000000;
+  }
+  
+  .container-1 {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subtitle {
+    margin: 0;
+    font-size: 1rem;
+    text-align: justify;
+    font-family: "Cormorant Garamond", serif;
+  }
+
+  .container-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #ececec;
+  }
+  
+  .text-1 {
+    align-self: center;
+    text-align: justify;
+    margin: 1rem;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1rem;
+  }
+  
+  .text-1 span {
+    font-weight: bold;
+  }
+
+  .img-1 {
+    width: 100%;
+  }
+  
+  .container-3 {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-4 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container-4 div {
+    overflow: hidden;
+  }
+  
+  .img-grid {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    transition: all 2s;
+  }
+  
+  .img-grid:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+  
+  .footer {
+    background-color: #000000;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-text {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1rem;
+  }
+}
